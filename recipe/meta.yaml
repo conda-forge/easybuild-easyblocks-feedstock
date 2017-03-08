@@ -1,34 +1,25 @@
-{% set name = "easybuild-easyblocks" %}
 {% set version = "3.1.0" %}
-{% set md5 = "8e9865ce17f2554c2fea05418cbb0088" %}
 
 package:
-  name: {{ name }} 
+  name: easybuild-easyblocks
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/73/0f/4681ae27ac06deac1225efc807f02c2305259e6b60e6037716a3f2f327d3/{{ name }}-{{ version }}.tar.gz
-  md5: {{ md5 }} 
+  fn: easybuild-easyblocks-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/e/easybuild-easyblocks/easybuild-easyblocks-{{ version }}.tar.gz
+  sha256: e8da6a49b4441bdead8e7348b8988da686cea537a5a1d2d70c6f72ca3bbff744
 
 build:
   number: 0
   skip: True  # [win or py3k]
-  script: |
-     python setup.py install  \
-     --single-version-externally-managed \
-     --record=record.txt 
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
     - setuptools
-    - setuptools >=0.6
-    - easybuild-framework >=3
-
   run:
     - python
-    - setuptools >=0.6
     - easybuild-framework >=3
 
 test:
@@ -46,5 +37,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - jerowe 
+    - jerowe
     - boegel
