@@ -14,14 +14,16 @@ Summary: Python modules which implement support for installing particular (group
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/easybuild-easyblocks-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/easybuild-easyblocks-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/easybuild-easyblocks-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/easybuild-easyblocks-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/easybuild-easyblocks-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/easybuild-easyblocks-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/easybuild-easyblocks-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/easybuild-easyblocks-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/easybuild-easyblocks/badges/version.svg)](https://anaconda.org/conda-forge/easybuild-easyblocks)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/easybuild-easyblocks/badges/downloads.svg)](https://anaconda.org/conda-forge/easybuild-easyblocks)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-easybuild--easyblocks-green.svg)](https://anaconda.org/conda-forge/easybuild-easyblocks) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/easybuild-easyblocks.svg)](https://anaconda.org/conda-forge/easybuild-easyblocks) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/easybuild-easyblocks.svg)](https://anaconda.org/conda-forge/easybuild-easyblocks) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/easybuild-easyblocks.svg)](https://anaconda.org/conda-forge/easybuild-easyblocks) |
 
 Installing easybuild-easyblocks
 ===============================
