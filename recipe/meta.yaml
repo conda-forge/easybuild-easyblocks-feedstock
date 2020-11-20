@@ -1,4 +1,4 @@
-{% set version = "3.9.3" %}
+{% set version = "4.3.1" %}
 
 package:
   name: easybuild-easyblocks
@@ -7,15 +7,15 @@ package:
 source:
   fn: easybuild-easyblocks-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/easybuild-easyblocks/easybuild-easyblocks-{{ version }}.tar.gz
-  sha256: 77c4ab717d472782bffe17b62a2a9b34032cc463bc9402a57e7732a3315d381c
+  sha256: b77af0dfe31fe44f01a1b5c64c320d64e3cef4dac9123009df7bb72cd5e06580
 
 build:
-  number: 1
-  skip: True  # [win or py3k]
+  number: 0
+  skip: true  # [win or py3k]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
@@ -32,7 +32,7 @@ about:
   home: http://hpcugent.github.com/easybuild
   license: GPLv2
   license_file: LICENSE
-  summary: 'Python modules which implement support for installing particular (groups of) software packages with EasyBuild.'
+  summary: Python modules which implement support for installing particular (groups of) software packages with EasyBuild.
   license_family: GPL2
 
 extra:
