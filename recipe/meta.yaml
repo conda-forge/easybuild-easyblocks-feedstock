@@ -1,4 +1,4 @@
-{% set version = "4.5.0" %}
+{% set version = "4.5.2" %}
 
 package:
   name: easybuild-easyblocks
@@ -7,7 +7,7 @@ package:
 source:
   fn: easybuild-easyblocks-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/easybuild-easyblocks/easybuild-easyblocks-{{ version }}.tar.gz
-  sha256: 79317eeef634c99aac7f4a393d2c6e7934f48ec31e934570faf963de6b9184b9
+  sha256: cbe7f5f0171b4a4846f723d77757875c7d80f2bbd76def95698f37addd472663
 
 build:
   number: 0
