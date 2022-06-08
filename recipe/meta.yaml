@@ -1,4 +1,4 @@
-{% set version = "4.5.4" %}
+{% set version = "4.5.5" %}
 
 package:
   name: easybuild-easyblocks
@@ -7,10 +7,10 @@ package:
 source:
   fn: easybuild-easyblocks-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/e/easybuild-easyblocks/easybuild-easyblocks-{{ version }}.tar.gz
-  sha256: e1c50ee4f5efb3425995153547bc56110d6c63c8d6f4fb40a5a48e5d5a455721
+  sha256: aa59432efe389c3d2cfbae61c4083a40d7b9652ebd75bd03da7a8fdb8a139b53
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or py3k]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
