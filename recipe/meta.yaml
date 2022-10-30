@@ -10,7 +10,7 @@ source:
   sha256: b88059feeb2a97c944f6a71dc88cec683fef650ac081f8563b3f312cf8fe2794
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or py3k]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -29,11 +29,10 @@ test:
     - easybuild.easyblocks.generic
 
 about:
-  home: http://hpcugent.github.com/easybuild
-  license: GPLv2
+  home: https://easybuild.io/
+  license: GPL-2.0-only
   license_file: LICENSE
   summary: Python modules which implement support for installing particular (groups of) software packages with EasyBuild.
-  license_family: GPL2
 
 extra:
   recipe-maintainers:
