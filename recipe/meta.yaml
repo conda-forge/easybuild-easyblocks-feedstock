@@ -29,11 +29,10 @@ test:
     - easybuild.easyblocks.generic
 
 about:
-  home: http://hpcugent.github.com/easybuild
-  license: GPLv2
+  home: https://easybuild.io/
+  license: GPL-2.0-only
   license_file: LICENSE
   summary: Python modules which implement support for installing particular (groups of) software packages with EasyBuild.
-  license_family: GPL2
 
 extra:
   recipe-maintainers:
