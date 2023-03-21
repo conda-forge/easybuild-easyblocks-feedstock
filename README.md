@@ -1,11 +1,11 @@
-About easybuild-easyblocks
-==========================
+About easybuild-easyblocks-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/easybuild-easyblocks-feedstock/blob/main/LICENSE.txt)
 
 Home: https://easybuild.io/
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/easybuild-easyblocks-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python modules which implement support for installing particular (groups of) software packages with EasyBuild.
 
