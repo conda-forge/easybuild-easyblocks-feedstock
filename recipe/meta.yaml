@@ -10,7 +10,7 @@ source:
   sha256: 8d51be0811a727c4bad166d3b03aa2dabf8e17ff26b8d48be8cf8970081e673a
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or py3k]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
